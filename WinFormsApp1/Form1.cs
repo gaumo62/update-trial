@@ -19,8 +19,9 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             this.textBox1.Text = Properties.Settings.Default.Trial;
-			string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-			this.textBox2.Text = version;
+			Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+			string versionS = string.Format("v{0}.{1}.{2}.{3}", version.Major, version.Minor, version.Build, version.Revision);
+			this.textBox2.Text = versionS;
 			Console.WriteLine("hello");
         }
 

@@ -19,7 +19,6 @@ namespace WinFormsApp1
             //Updater.GitHubRepo = "/gaumo62/update-trial.git";
             //if (Updater.AutoUpdate(args))
             //    return;
-            Console.WriteLine("\n ---------------------- \n ---------------------- \n");
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
