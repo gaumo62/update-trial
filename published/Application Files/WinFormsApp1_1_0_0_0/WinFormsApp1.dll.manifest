@@ -53,22 +53,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="WinFormsApp1.deps.json" size="481">
+  <file name="WinFormsApp1.deps.json" size="428">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rLukz0UIF/a23cPRy8FHpmW12nkOze6G5AuXN9fXi8E=</dsig:DigestValue>
+      <dsig:DigestValue>ip39LX1y9qm0Isx/zob36qzqo2pJPCJrsvxM9nAGpjY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WinFormsApp1.dll" size="13312">
+  <file name="WinFormsApp1.dll" size="14848">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>VTs26TczdMM2KnG73hfWMcbnVpArCgIQcvKefZKWVEI=</dsig:DigestValue>
+      <dsig:DigestValue>jGt+z6mIexGuL2UTCr0he9knnTMaJCgGKl2to0rQLwk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="WinFormsApp1.exe" size="142336">
