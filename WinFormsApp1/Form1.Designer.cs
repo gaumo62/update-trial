@@ -44,9 +44,9 @@ namespace WinFormsApp1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 20);
+            this.label1.Size = new System.Drawing.Size(151, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Property Value New";
+            this.label1.Text = "Property Value Revert";
             // 
             // textBox1
             // 
