@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -18,6 +19,8 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             this.textBox1.Text = Properties.Settings.Default.Trial;
+			string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+			this.textBox2.Text = version;
 			Console.WriteLine("hello");
         }
 
