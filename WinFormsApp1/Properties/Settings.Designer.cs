@@ -34,5 +34,17 @@ namespace WinFormsApp1.Properties {
                 this["Trial"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("trial")]
+        public string trial2 {
+            get {
+                return ((string)(this["trial2"]));
+            }
+            set {
+                this["trial2"] = value;
+            }
+        }
     }
 }

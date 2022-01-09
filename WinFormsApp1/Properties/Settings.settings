@@ -5,5 +5,8 @@
     <Setting Name="Trial" Type="System.String" Scope="User">
       <Value Profile="(Default)">First Value</Value>
     </Setting>
+    <Setting Name="trial2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">trial</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

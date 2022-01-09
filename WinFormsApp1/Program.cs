@@ -16,9 +16,10 @@ namespace WinFormsApp1
         static void Main(string[] args)
         {
             // setup the auto update, and exit if there was an update
-            Updater.GitHubRepo = "/gaumo62/update-trial.git";
-            if (Updater.AutoUpdate(args))
-                return;
+            //Updater.GitHubRepo = "/gaumo62/update-trial.git";
+            //if (Updater.AutoUpdate(args))
+            //    return;
+            Console.WriteLine("\n ---------------------- \n ---------------------- \n");
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
