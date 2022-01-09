@@ -59,6 +59,7 @@ namespace WinFormsApp1
 			Debug.WriteLine("Got Response");
 			Debug.WriteLine(wrs.ToString());
 			string print = "";
+			string print2 = "";
 			using (var sr = new StreamReader(wrs.GetResponseStream()))
 			{
 				string line;
@@ -69,15 +70,15 @@ namespace WinFormsApp1
 					var match = urlMatcher.Match(line);
 					if (match.Success)
 					{
-						var uri = new Uri(string.Concat("https://github.com", match.Value));
-						var vs = match.Value.LastIndexOf("/v");
-						var sa = match.Value.Substring(vs + 10).Split('.', '/');
-						var v = new Version(int.Parse(sa[0]), int.Parse(sa[1]), int.Parse(sa[2]), int.Parse(sa[3]));
-						result.Add(v, uri);
-					}
-				}
+                        var uri = new Uri(string.Concat("https://github.com", match.Value));
+                        var vs = match.Value.LastIndexOf("/v");
+                        var sa = match.Value.Substring(vs + 10).Split('.', '/');
+						print2 = sa[0];
+                        //var v = new Version(int.Parse(sa[0]), int.Parse(sa[1]), int.Parse(sa[2]), int.Parse(sa[3]));
+                        //result.Add(v, uri);
+                    }
+                }
 			}
-			string print2 = "";
             foreach (var item in result)
             {
                 print2 += item.Key.ToString() + " " + item.Value.ToString() + "\n";
