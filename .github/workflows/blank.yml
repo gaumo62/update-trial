@@ -32,7 +32,7 @@ jobs:
           tag=$(git describe --tags --abbrev=0)
           release_name="trial-$tag-${{ matrix.target }}"
           # Build everything
-          dotnet publish --framework net5.0-windows --runtime "${{ matrix.target }}" -c Release -o "$release_name"
+          dotnet publish --framework net5.0-windows -c Release -o "$release_name"
           # Pack files
           if [ "${{ matrix.target }}" == "win-x64" ]; then
             # Pack to zip for Windows
